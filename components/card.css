@@ -1,0 +1,48 @@
+.card{
+    text-align: center;
+    border: 2px  black;
+    padding: 1rem;
+    box-shadow: 4px 4px 9px 1px rgb(44, 42, 42);
+   
+}
+
+button{
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 2px;
+}
+button:hover{
+    background-color: rgb(250, 85, 85);
+    cursor: pointer;
+
+}
+.card:hover{
+    transform: scale(1.05 , 1.05);
+}
+
+.card img{
+   
+    height: 300px;
+    width: 280px;
+}
+@media screen and (max-width:940px){
+    .card img{
+        height: 220px;
+        width: 200px;
+    }
+    .card{
+        padding: 0.6rem;
+    }
+}
+@media screen and (max-width:515px){
+    .card img{
+        height: 180px;
+        width: 160px;
+     
+    }
+    .card{
+        padding: 0.4rem;
+    }
+    
+  }
